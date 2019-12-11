@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+}
+
+#frame {
+	border: solid black 1px;
+}
+
+#rolls {
+	display: flex;
+	background-color: green;
+	padding: 5px;
+}
+
+#zero-roll, #first-roll, #second-roll {
+	padding: 5px;
+}
+
+#first-roll {
+	background-color: yellow;
+}
+
+#second-roll {
+	background-color: blue;
+}
+
+#total {
+	padding: 5px;
+	background-color: red;
+}
